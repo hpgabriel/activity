@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #472222;
+    font-family: "Nunito",sans-serif;
+    font-size: 1rem;
+}
+main{
+    max-width: 900px;
+    margin: auto;
+    padding: 2.5ren;
+    text-align: center;
+    color: rgb(40, 19, 161);
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right:1rem;
+
+}
+h1{
+    color: #a91bb6;
+    margin-bottom: 0.5ren;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 0 ;
+    text-decoration: rgb(197, 12, 36);
+    background-color: rgb(189, 107, 59);
+}
+
+
+.card{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 15rem auto;
+    height: 15rem;
+    background: rgb(27, 189, 95);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+.card--avatar{
+    width: 90%;
+    height: 10rem;
+    object-fit: cover;
+}
+.card--title{
+    color: rgb(97, 27, 161);
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+.card--link{
+    text-decoration: none;
+    background: #db2938;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    
+}
